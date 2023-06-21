@@ -1,0 +1,201 @@
+if game.PlaceId == 3388553819 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wxrpie/Crypted/main/Scripts/Captive.lua"))()
+elseif game.PlaceId == 10647477608 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wxrpie/Crypted/main/Scripts/Captive.lua"))()
+elseif game.PlaceId == 5884786982 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wxrpie/Crypted/main/Scripts/Escape%20the%20Darkness.lua"))()
+elseif game.PlaceId == 893973440 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wxrpie/Crypted/main/Scripts/Flee%20the%20Facility.lua"))()
+elseif game.PlaceId == 13614758715 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wxrpie/Crypted/main/Scripts/Daybreak.lua"))()
+elseif game.PlaceId == 6870736769 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wxrpie/Crypted/main/Scripts/Daybreak2.lua"))()
+elseif game.PlaceId == 4448566543 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wxrpie/Crypted/main/Scripts/Banana%20Eats.lua"))()
+else
+local Crypted = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Top = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local TopSide = Instance.new("Frame")
+local Close = Instance.new("ImageButton")
+local UICorner_2 = Instance.new("UICorner")
+local Shadow = Instance.new("Frame")
+local DropShadow = Instance.new("ImageLabel")
+local Messages = Instance.new("Folder")
+local Message2 = Instance.new("TextLabel")
+local Message3 = Instance.new("TextLabel")
+local Message = Instance.new("TextLabel")
+local Invite = Instance.new("TextButton")
+
+Crypted.Name = "Crypted"
+Crypted.Parent = game:GetService("CoreGui")
+Crypted.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = Crypted
+Main.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Main.Position = UDim2.new(0.271737128, 0, 0.292066246, 0)
+Main.Size = UDim2.new(0, 452, 0, 402)
+
+Top.Name = "Top"
+Top.Parent = Main
+Top.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Top.Position = UDim2.new(6.75167655e-08, 0, 0, 0)
+Top.Size = UDim2.new(0, 452, 0, 24)
+
+UICorner.Parent = Top
+
+Title.Name = "Title"
+Title.Parent = Top
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(-0.155000001, 0, -0.629999995, 0)
+Title.Size = UDim2.new(0, 200, 0, 50)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Crypted"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 14.000
+
+TopSide.Name = "TopSide"
+TopSide.Parent = Top
+TopSide.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+TopSide.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TopSide.Position = UDim2.new(0.00221238937, 0, 0.833333373, 0)
+TopSide.Size = UDim2.new(0.995575249, 0, 0.166666672, 0)
+
+Close.Name = "Close"
+Close.Parent = Top
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.96238941, 0, 0.166666746, 0)
+Close.Size = UDim2.new(0, 16, 0, 16)
+Close.Image = "http://www.roblox.com/asset/?id=6031094678"
+Close.MouseButton1Down:Connect(function()
+	game:GetService("CoreGui").Crypted:Destroy()
+end)
+
+UICorner_2.Parent = Main
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Main
+Shadow.BackgroundTransparency = 1.000
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 0)
+Shadow.ZIndex = 0
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = Shadow
+DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow.Size = UDim2.new(1, 47, 1, 47)
+DropShadow.ZIndex = 0
+DropShadow.Image = "rbxassetid://6014261993"
+DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow.ImageTransparency = 0.500
+DropShadow.ScaleType = Enum.ScaleType.Slice
+DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+Messages.Name = "Messages"
+Messages.Parent = Main
+
+Message2.Name = "Message2"
+Message2.Parent = Messages
+Message2.Active = true
+Message2.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Message2.BackgroundTransparency = 1.000
+Message2.Position = UDim2.new(0.683628321, 0, 0.890547216, 0)
+Message2.Size = UDim2.new(0, 200, 0, 50)
+Message2.Font = Enum.Font.SourceSans
+Message2.Text = "wxrp#1111"
+Message2.TextColor3 = Color3.fromRGB(255, 0, 0)
+Message2.TextSize = 20.000
+
+Message3.Name = "Message3"
+Message3.Parent = Messages
+Message3.Active = true
+Message3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Message3.BackgroundTransparency = 1.000
+Message3.Position = UDim2.new(0.278761059, 0, 0.522388041, 0)
+Message3.Size = UDim2.new(0, 200, 0, 50)
+Message3.Font = Enum.Font.SourceSans
+Message3.Text = "Discord: discord.gg/7uqaFNyymZ"
+Message3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Message3.TextSize = 25.000
+
+Message.Name = "Message"
+Message.Parent = Messages
+Message.Active = true
+Message.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Message.BackgroundTransparency = 1.000
+Message.Position = UDim2.new(0.285398215, 0, 0.286069691, 0)
+Message.Size = UDim2.new(0, 200, 0, 50)
+Message.Font = Enum.Font.SourceSans
+Message.Text = "You executed Crypted in an unsupported Game!"
+Message.TextColor3 = Color3.fromRGB(255, 255, 255)
+Message.TextSize = 25.000
+
+Invite.Name = "Invite"
+Invite.Parent = Messages
+Invite.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Invite.BackgroundTransparency = 1.000
+Invite.Position = UDim2.new(-0.0398229957, 0, 0.888059676, 0)
+Invite.Size = UDim2.new(0, 200, 0, 50)
+Invite.Font = Enum.Font.SourceSans
+Invite.Text = "(Click to copy Discord invite)"
+Invite.TextColor3 = Color3.fromRGB(255, 255, 255)
+Invite.TextSize = 14.000
+Invite.MouseButton1Down:Connect(function()
+    setclipboard(tostring("discord.gg/7uqaFNyymZ"))
+end)
+
+local function MREQG_fake_script()
+	local script = Instance.new('LocalScript', Main)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			if gui.Visible then
+				update(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(MREQG_fake_script)()
+end
